@@ -1,0 +1,548 @@
+{
+  "users": [
+    {
+      "user_id": "usr_owner",
+      "username": "owner",
+      "full_name": "Property Hub Director",
+      "password_hash": "7be5037bf088f1d43adb97006d695dba99a614c82fcd0e6b10abdd83aeccd265",
+      "role": "owner",
+      "is_active": true,
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "last_login_at": "2026-10-01T09:15:23.234Z"
+    },
+    {
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "full_name": "Ahmed Khan",
+      "password_hash": "326e1daae739f1722d359266f0642a27db93f2aa6c85d83e945e5f790eda335d",
+      "role": "user",
+      "is_active": true,
+      "created_at": "2026-01-15T00:00:00.000Z",
+      "last_login_at": "2026-10-01T09:15:23.247Z"
+    },
+    {
+      "user_id": "usr_emp102",
+      "username": "EMP-102",
+      "full_name": "Zainab Malik",
+      "password_hash": "24e3da1290e9e4bb72772c58ce8943577435b6ef061c84d0f46a7811c119f55f",
+      "role": "user",
+      "is_active": true,
+      "created_at": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "user_id": "usr_emp103",
+      "username": "EMP-103",
+      "full_name": "Hamza Tariq",
+      "password_hash": "978800acbe2a40e2dfa6b091edb6f5a9e71fde1cbe2eeabfafe5531be383c21b",
+      "role": "user",
+      "is_active": true,
+      "created_at": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "user_id": "usr_0e6a2a97e3e8_1790840630136",
+      "username": "haroon official",
+      "full_name": "haroon",
+      "password_hash": "43b70324181dda163a44751a93fd373a59e730924cbf9efd6d40255c75106c13",
+      "role": "user",
+      "is_active": false,
+      "phone": "03707907243",
+      "email": "sammarm914@gmail.com",
+      "agency_name": "xyz",
+      "payment_status": "pending",
+      "created_at": "2026-10-01T07:43:50.136Z"
+    },
+    {
+      "user_id": "usr_110821a320d4_1790844475465",
+      "username": "malik",
+      "full_name": ";ihy",
+      "password_hash": "c91e99575f986f83a0837c7d1199ef72343c60cca1ad6d485d2bdbdd7302cc40",
+      "role": "user",
+      "is_active": false,
+      "phone": "03707907243",
+      "email": "sammarm914@gmail.com",
+      "agency_name": "xyz",
+      "payment_status": "pending",
+      "created_at": "2026-10-01T08:47:55.465Z"
+    },
+    {
+      "user_id": "usr_016ab0f6134b_1790845104243",
+      "username": "nkbjsad",
+      "full_name": "y7twq7e",
+      "password_hash": "cce15f48dab636967cf5b1c8588e7863bed90cee6f91ffa49f449e8632894938",
+      "role": "user",
+      "is_active": false,
+      "phone": "785675",
+      "email": "sammarm914@gmail.com",
+      "agency_name": "jkbsdjkkbdsa",
+      "payment_status": "pending",
+      "created_at": "2026-10-01T08:58:24.243Z"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "sess_a086e8510d63b3a0280d1e9a0c18dec9",
+      "user_id": "usr_emp101",
+      "token": "phtk_ed12a8f773f061ee2443d8535dde7d8e2f44fa0f40fe1e20d6a4da08626cb219",
+      "expires_at": "2026-10-28T12:13:33.226Z",
+      "created_at": "2026-09-28T12:13:33.227Z"
+    },
+    {
+      "session_id": "sess_25b1c83905ab589e1387aa3f996451db",
+      "user_id": "usr_emp101",
+      "token": "phtk_fac3ddc2303241470d02c1a83e2e38055c726e0a83c8b2d4fd28008687cc2700",
+      "expires_at": "2026-10-28T12:17:10.176Z",
+      "created_at": "2026-09-28T12:17:10.176Z"
+    },
+    {
+      "session_id": "sess_50d9377dfd1032eed5b71274f1b9a936",
+      "user_id": "usr_emp101",
+      "token": "phtk_8a53791694f0879f1829513d823e51f0e90492ff96a428dcbc1c5827e14c305a",
+      "expires_at": "2026-10-28T12:42:33.908Z",
+      "created_at": "2026-09-28T12:42:33.908Z"
+    },
+    {
+      "session_id": "sess_43e73881d8951cff73df5b9ac3ef37a6",
+      "user_id": "usr_owner",
+      "token": "phtk_9fa098058771aa77f4c5591b022759f2471f5f9a7f886a1429fe11fcd4bb12d5",
+      "expires_at": "2026-10-28T12:42:40.723Z",
+      "created_at": "2026-09-28T12:42:40.723Z"
+    },
+    {
+      "session_id": "sess_fac295a1b6a8d649a4ebe18a712aaba2",
+      "user_id": "usr_emp101",
+      "token": "phtk_a78f3ce9f34d027755af9f12dae65dd85a7d90a9cc65b27b52b3f2c1f28d8829",
+      "expires_at": "2026-10-31T09:00:35.274Z",
+      "created_at": "2026-10-01T09:00:35.274Z"
+    },
+    {
+      "session_id": "sess_6da50c694a0b5888bb56b80f72501c3e",
+      "user_id": "usr_owner",
+      "token": "phtk_bcc931b9fdd6b910363113d1c99d3fc6e9fe4917682cb6d520d0ac67cee9cc1a",
+      "expires_at": "2026-10-31T09:14:55.730Z",
+      "created_at": "2026-10-01T09:14:55.730Z"
+    },
+    {
+      "session_id": "sess_f8391664f7c4964a6a89050d5865303e",
+      "user_id": "usr_emp101",
+      "token": "phtk_a323dcf21ffcb4e93bbd561ea4d68deaa68c7cb7a3bfcbf4ddb95678aacad2db",
+      "expires_at": "2026-10-31T09:14:55.748Z",
+      "created_at": "2026-10-01T09:14:55.749Z"
+    },
+    {
+      "session_id": "sess_cea1920ed6b08dfb3e465dfd6e0eac0a",
+      "user_id": "usr_owner",
+      "token": "phtk_31233135c9bf254ca86851ee6c141ace11468fc68ce9bf0b696d9b2839bbb28e",
+      "expires_at": "2026-10-31T09:15:09.216Z",
+      "created_at": "2026-10-01T09:15:09.216Z"
+    },
+    {
+      "session_id": "sess_3ded5addbebb62f6b75b9af24d007bd2",
+      "user_id": "usr_emp101",
+      "token": "phtk_3d9747d2d8a06599d89b69f7dc83f734841ea0961a0fa86048f63bb5c13df4e1",
+      "expires_at": "2026-10-31T09:15:09.229Z",
+      "created_at": "2026-10-01T09:15:09.229Z"
+    },
+    {
+      "session_id": "sess_2b6e66a6d6f3868b6915f3798b950a6d",
+      "user_id": "usr_owner",
+      "token": "phtk_3d8c5b9bb1458afbd3b21ea40a70893ab8bad38a20a02cdd80e899c62cb69e75",
+      "expires_at": "2026-10-31T09:15:23.235Z",
+      "created_at": "2026-10-01T09:15:23.235Z"
+    },
+    {
+      "session_id": "sess_8488dce22a83447a5a27bace8236a108",
+      "user_id": "usr_emp101",
+      "token": "phtk_fe96cbf53f4df58be31277bc6a159febe3cbf0c032cee7d466aa9e58b0e60523",
+      "expires_at": "2026-10-31T09:15:23.248Z",
+      "created_at": "2026-10-01T09:15:23.248Z"
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_seed_101_1",
+      "user_id": "usr_emp101",
+      "society": "Al Rehman Garden",
+      "town": "Lahore",
+      "phase": "Phase 2",
+      "block": "Block A",
+      "plot_number": "125",
+      "plot_size": "5 Marla",
+      "plot_type": "Residential",
+      "price": 4800000,
+      "status": "Available",
+      "notes": "Corner plot with 40ft wide boulevard access, close to commercial hub and central mosque. Ready for immediate construction.",
+      "images": [
+        {
+          "image_id": "img_seed_1",
+          "property_id": "prop_seed_101_1",
+          "user_id": "usr_emp101",
+          "image_url": "/src/assets/images/villa_modern_facade_1790596726345.jpg",
+          "created_at": "2026-03-01T00:00:00.000Z"
+        }
+      ],
+      "tiktok_links": [
+        {
+          "tiktok_id": "tt_seed_1",
+          "property_id": "prop_seed_101_1",
+          "user_id": "usr_emp101",
+          "tiktok_url": "https://www.tiktok.com/@propertyhub/video/7345123456789012345",
+          "created_at": "2026-03-01T00:00:00.000Z",
+          "updated_at": "2026-03-01T00:00:00.000Z"
+        }
+      ],
+      "created_at": "2026-03-01T00:00:00.000Z",
+      "updated_at": "2026-03-01T00:00:00.000Z",
+      "sync_version": 1
+    },
+    {
+      "property_id": "prop_seed_101_2",
+      "user_id": "usr_emp101",
+      "society": "Lake City",
+      "town": "Lahore",
+      "phase": "Phase 1",
+      "block": "Block M-7",
+      "plot_number": "42",
+      "plot_size": "10 Marla",
+      "plot_type": "Residential",
+      "price": 14500000,
+      "status": "Available",
+      "notes": "Prime facing park plot, direct access from Ring Road, underground electrification and gas available.",
+      "images": [
+        {
+          "image_id": "img_seed_2",
+          "property_id": "prop_seed_101_2",
+          "user_id": "usr_emp101",
+          "image_url": "/src/assets/images/residential_plot_1790596815675.jpg",
+          "created_at": "2026-03-05T00:00:00.000Z"
+        }
+      ],
+      "tiktok_links": [],
+      "created_at": "2026-03-05T00:00:00.000Z",
+      "updated_at": "2026-03-05T00:00:00.000Z",
+      "sync_version": 1
+    },
+    {
+      "property_id": "prop_seed_102_1",
+      "user_id": "usr_emp102",
+      "society": "DHA",
+      "town": "Lahore",
+      "phase": "Phase 6",
+      "block": "Main Boulevard",
+      "plot_number": "14-C",
+      "plot_size": "4 Marla",
+      "plot_type": "Commercial",
+      "price": 35000000,
+      "status": "Available",
+      "notes": "Main commercial corner plot, high footfall zone, basement + ground + 4 floors approved map.",
+      "images": [
+        {
+          "image_id": "img_seed_3",
+          "property_id": "prop_seed_102_1",
+          "user_id": "usr_emp102",
+          "image_url": "/src/assets/images/commercial_plaza_1790596739284.jpg",
+          "created_at": "2026-03-10T00:00:00.000Z"
+        }
+      ],
+      "tiktok_links": [
+        {
+          "tiktok_id": "tt_seed_2",
+          "property_id": "prop_seed_102_1",
+          "user_id": "usr_emp102",
+          "tiktok_url": "https://www.tiktok.com/@propertyhub/video/7345998877665544332",
+          "created_at": "2026-03-10T00:00:00.000Z",
+          "updated_at": "2026-03-10T00:00:00.000Z"
+        }
+      ],
+      "created_at": "2026-03-10T00:00:00.000Z",
+      "updated_at": "2026-03-10T00:00:00.000Z",
+      "sync_version": 1
+    },
+    {
+      "property_id": "prop_seed_102_2",
+      "user_id": "usr_emp102",
+      "society": "Bahria Town",
+      "town": "Lahore",
+      "phase": "Sector C",
+      "block": "Iris Block",
+      "plot_number": "89-B",
+      "plot_size": "1 Kanal",
+      "plot_type": "Residential",
+      "price": 28000000,
+      "status": "On Hold",
+      "notes": "Client token amount submitted. Verification pending from Bahria Town Head Office.",
+      "images": [],
+      "tiktok_links": [],
+      "created_at": "2026-03-12T00:00:00.000Z",
+      "updated_at": "2026-03-12T00:00:00.000Z",
+      "sync_version": 1
+    },
+    {
+      "property_id": "prop_seed_103_1",
+      "user_id": "usr_emp103",
+      "society": "Park View City",
+      "town": "Lahore",
+      "phase": "Phase 1",
+      "block": "Overseas Block",
+      "plot_number": "210",
+      "plot_size": "5 Marla",
+      "plot_type": "Residential",
+      "price": 5200000,
+      "status": "Sold",
+      "notes": "Registry and transfer successfully executed in customer name. Full payment cleared.",
+      "images": [],
+      "tiktok_links": [],
+      "created_at": "2026-03-15T00:00:00.000Z",
+      "updated_at": "2026-03-20T00:00:00.000Z",
+      "sync_version": 2
+    }
+  ],
+  "activity_logs": [
+    {
+      "log_id": "log_1790846123278_sayn",
+      "user_id": "usr_system",
+      "username": "system",
+      "action": "ACCESS_REQUEST",
+      "details": "New user registration from Test Applicant (03009998877)",
+      "timestamp": "2026-10-01T09:15:23.278Z"
+    },
+    {
+      "log_id": "log_1790846123266_0gul",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "PROPERTY_DELETE",
+      "details": "Deleted plot Test-999, Al Rehman Garden",
+      "timestamp": "2026-10-01T09:15:23.266Z"
+    },
+    {
+      "log_id": "log_1790846123260_s698",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "PROPERTY_ADD",
+      "details": "Added plot Test-999, Al Rehman Garden",
+      "timestamp": "2026-10-01T09:15:23.260Z"
+    },
+    {
+      "log_id": "log_1790846123248_835l",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-10-01T09:15:23.248Z"
+    },
+    {
+      "log_id": "log_1790846123235_caoj",
+      "user_id": "usr_owner",
+      "username": "owner",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-10-01T09:15:23.235Z"
+    },
+    {
+      "log_id": "log_1790846109248_h5xp",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "PROPERTY_DELETE",
+      "details": "Deleted plot Test-999, Al Rehman Garden",
+      "timestamp": "2026-10-01T09:15:09.248Z"
+    },
+    {
+      "log_id": "log_1790846109241_z1md",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "PROPERTY_ADD",
+      "details": "Added plot Test-999, Al Rehman Garden",
+      "timestamp": "2026-10-01T09:15:09.241Z"
+    },
+    {
+      "log_id": "log_1790846109230_hl1p",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-10-01T09:15:09.230Z"
+    },
+    {
+      "log_id": "log_1790846109217_zy7u",
+      "user_id": "usr_owner",
+      "username": "owner",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-10-01T09:15:09.217Z"
+    },
+    {
+      "log_id": "log_1790846095749_vbqy",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-10-01T09:14:55.749Z"
+    },
+    {
+      "log_id": "log_1790846095730_clh9",
+      "user_id": "usr_owner",
+      "username": "owner",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-10-01T09:14:55.730Z"
+    },
+    {
+      "log_id": "log_1790845235274_673n",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-10-01T09:00:35.274Z"
+    },
+    {
+      "log_id": "log_1790845104243_tsjb",
+      "user_id": "usr_system",
+      "username": "system",
+      "action": "ACCESS_REQUEST",
+      "details": "New user registration from y7twq7e (785675)",
+      "timestamp": "2026-10-01T08:58:24.243Z"
+    },
+    {
+      "log_id": "log_1790844958041_ifne",
+      "user_id": "usr_system",
+      "username": "system",
+      "action": "ACCESS_REQUEST",
+      "details": "New user registration from Hamza Ali (03012345678)",
+      "timestamp": "2026-10-01T08:55:58.041Z"
+    },
+    {
+      "log_id": "log_1790844475465_dhlb",
+      "user_id": "usr_system",
+      "username": "system",
+      "action": "ACCESS_REQUEST",
+      "details": "New user registration from ;ihy (03707907243)",
+      "timestamp": "2026-10-01T08:47:55.465Z"
+    },
+    {
+      "log_id": "log_1790840630137_lm8v",
+      "user_id": "usr_system",
+      "username": "system",
+      "action": "ACCESS_REQUEST",
+      "details": "New license request from haroon (03707907243)",
+      "timestamp": "2026-10-01T07:43:50.137Z"
+    },
+    {
+      "log_id": "log_1790599360723_sz4x",
+      "user_id": "usr_owner",
+      "username": "owner",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-09-28T12:42:40.723Z"
+    },
+    {
+      "log_id": "log_1790599353908_umfg",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-09-28T12:42:33.908Z"
+    },
+    {
+      "log_id": "log_1790597830176_nhf9",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-09-28T12:17:10.176Z"
+    },
+    {
+      "log_id": "log_1790597613227_atv2",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "LOGIN",
+      "details": "Successful login",
+      "timestamp": "2026-09-28T12:13:33.227Z"
+    },
+    {
+      "log_id": "log_seed_1",
+      "user_id": "usr_emp101",
+      "username": "EMP-101",
+      "action": "PROPERTY_ADD",
+      "details": "Added Al Rehman Garden Phase 2 Block A Plot 125",
+      "timestamp": "2026-03-01T00:00:00.000Z"
+    },
+    {
+      "log_id": "log_seed_2",
+      "user_id": "usr_emp102",
+      "username": "EMP-102",
+      "action": "PROPERTY_ADD",
+      "details": "Added DHA Phase 6 Main Commercial Plot 14-C",
+      "timestamp": "2026-03-10T00:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "office_name": "MSA",
+    "currency": "PKR",
+    "default_city": "Lahore",
+    "popular_societies": [
+      "Al Rehman Garden",
+      "Bahria Town",
+      "DHA",
+      "Lake City",
+      "Park View City",
+      "New Lahore City",
+      "Central Park Housing Scheme",
+      "Fazaia Housing Scheme",
+      "WAPDA Town",
+      "Johar Town"
+    ],
+    "popular_sizes": [
+      "3 Marla",
+      "5 Marla",
+      "7 Marla",
+      "10 Marla",
+      "1 Kanal",
+      "2 Kanal",
+      "4 Marla Commercial",
+      "8 Marla Commercial"
+    ],
+    "owner_email": "sacc5038@gmail.com",
+    "owner_phone": "+92 3082665978",
+    "owner_whatsapp": "+92 3082665978"
+  },
+  "access_requests": [
+    {
+      "request_id": "req_038b4c2affe7_1790845104243",
+      "user_id": "usr_016ab0f6134b_1790845104243",
+      "full_name": "y7twq7e",
+      "phone": "785675",
+      "email": "sammarm914@gmail.com",
+      "agency_name": "jkbsdjkkbdsa",
+      "city": "Lahore",
+      "desired_username": "nkbjsad",
+      "password_hash": "cce15f48dab636967cf5b1c8588e7863bed90cee6f91ffa49f449e8632894938",
+      "status": "pending_payment",
+      "created_at": "2026-10-01T08:58:24.243Z"
+    },
+    {
+      "request_id": "req_fb4e573e4219_1790844475465",
+      "user_id": "usr_110821a320d4_1790844475465",
+      "full_name": ";ihy",
+      "phone": "03707907243",
+      "email": "sammarm914@gmail.com",
+      "agency_name": "xyz",
+      "city": "Lahore",
+      "desired_username": "malik",
+      "password_hash": "c91e99575f986f83a0837c7d1199ef72343c60cca1ad6d485d2bdbdd7302cc40",
+      "status": "pending_payment",
+      "created_at": "2026-10-01T08:47:55.465Z"
+    },
+    {
+      "request_id": "req_d05cbd3ac09b_1790840630136",
+      "user_id": "usr_0e6a2a97e3e8_1790840630136",
+      "full_name": "haroon",
+      "phone": "03707907243",
+      "email": "sammarm914@gmail.com",
+      "agency_name": "xyz",
+      "city": "sailkot",
+      "desired_username": "haroon official",
+      "password_hash": "43b70324181dda163a44751a93fd373a59e730924cbf9efd6d40255c75106c13",
+      "status": "pending_payment",
+      "created_at": "2026-10-01T07:43:50.136Z"
+    }
+  ]
+}

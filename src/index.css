@@ -1,0 +1,209 @@
+@import "tailwindcss";
+
+@layer base {
+  :root, [data-theme="warm-paper"] {
+    --bg-app: #F5F3EC;
+    --bg-card: #FFFFFF;
+    --bg-card-hover: #FCFAF6;
+    --bg-card-subtle: #ECE8DE;
+    --bg-card-muted: #F2EFE7;
+    --border-app: #E0DAD0;
+    --border-app-subtle: #EBE5DB;
+    --text-main: #1C2026;
+    --text-secondary: #525966;
+    --text-tertiary: #7C8392;
+    --accent-gold: #B46F11;
+    --accent-gold-hover: #975A0A;
+    --accent-gold-bg: #FCF4E4;
+    --accent-gold-border: #E8D3A8;
+    --accent-blue: #1D4ED8;
+    --accent-blue-hover: #1E40AF;
+    --accent-blue-bg: #EFF6FF;
+    --accent-blue-border: #BFDBFE;
+    --accent-emerald: #15803D;
+    --accent-emerald-bg: #F0FDF4;
+    --accent-emerald-border: #BBF7D0;
+    --accent-rose: #BE123C;
+    --accent-rose-bg: #FFF1F2;
+    --accent-rose-border: #FECDD3;
+    --header-bg: #FFFFFF;
+    --header-border: #E0DAD0;
+    --nav-bg: #FFFFFF;
+    --nav-border: #E0DAD0;
+    --shadow-soft: 0 2px 10px -2px rgba(45, 38, 25, 0.06), 0 1px 3px -1px rgba(45, 38, 25, 0.04);
+  }
+
+  [data-theme="soothing-twilight"], .dark {
+    --bg-app: #17191E;
+    --bg-card: #20232B;
+    --bg-card-hover: #262A34;
+    --bg-card-subtle: #292E38;
+    --bg-card-muted: #1D2027;
+    --border-app: #313644;
+    --border-app-subtle: #282D39;
+    --text-main: #EAE8E2;
+    --text-secondary: #9DA3AF;
+    --text-tertiary: #6E7583;
+    --accent-gold: #F59E0B;
+    --accent-gold-hover: #D97706;
+    --accent-gold-bg: #372A11;
+    --accent-gold-border: #6B5218;
+    --accent-blue: #3B82F6;
+    --accent-blue-hover: #2563EB;
+    --accent-blue-bg: #172554;
+    --accent-blue-border: #1E3A8A;
+    --accent-emerald: #10B981;
+    --accent-emerald-bg: #064E3B;
+    --accent-emerald-border: #047857;
+    --accent-rose: #FB7185;
+    --accent-rose-bg: #4C0519;
+    --accent-rose-border: #881337;
+    --header-bg: #1D2028;
+    --header-border: #2D323E;
+    --nav-bg: #1D2028;
+    --nav-border: #2D323E;
+    --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Eye Shield: Gentle optical warmth filter to protect human retina from blue light strain */
+  html.eye-shield-active {
+    filter: sepia(18%) brightness(98%) contrast(96%);
+    transition: filter 0.3s ease;
+  }
+
+  html, body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-app);
+    color: var(--text-main);
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: contain;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  /* Mobile Touch Optimization: prevent delay and iOS zoom on form inputs */
+  button, a, input, select, textarea {
+    touch-action: manipulation;
+  }
+
+  @media screen and (max-width: 640px) {
+    input, select, textarea {
+      font-size: 16px !important;
+    }
+  }
+}
+
+.font-brand {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Eye-Care Semantic Utility Classes */
+.theme-bg-main {
+  background-color: var(--bg-app);
+}
+
+.theme-bg-card {
+  background-color: var(--bg-card);
+}
+
+.theme-bg-subtle {
+  background-color: var(--bg-card-subtle);
+}
+
+.theme-bg-muted {
+  background-color: var(--bg-card-muted);
+}
+
+.theme-border {
+  border-color: var(--border-app);
+}
+
+.theme-border-subtle {
+  border-color: var(--border-app-subtle);
+}
+
+.theme-text-main {
+  color: var(--text-main);
+}
+
+.theme-text-secondary {
+  color: var(--text-secondary);
+}
+
+.theme-text-tertiary {
+  color: var(--text-tertiary);
+}
+
+.theme-shadow {
+  box-shadow: var(--shadow-soft);
+}
+
+/* Safe area support for mobile devices with notches and gesture bars */
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 16px), 16px);
+}
+
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top, 16px), 16px);
+}
+
+/* Custom warm gold gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #B46F11 0%, #D97706 40%, #92400E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+[data-theme="soothing-twilight"] .text-gold-gradient,
+.dark .text-gold-gradient {
+  background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 40%, #B45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hide scrollbars while allowing smooth scroll on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Touch-friendly range input slider track and thumb */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background: #D97706;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  cursor: pointer;
+  margin-top: -7px;
+}
+
+[data-theme="soothing-twilight"] input[type="range"]::-webkit-slider-thumb,
+.dark input[type="range"]::-webkit-slider-thumb {
+  border-color: #17191E;
+  background: #F59E0B;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+}
